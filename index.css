@@ -1,0 +1,84 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.main-container{
+	height: 3200px;
+	width:100%;
+	background-image: url("Images/back1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+
+#slider1{
+	margin-left: 50px;
+	margin-top:150px;
+	margin-bottom: 50px;
+	width:900px;
+	height: 500px;
+	
+}
+.s_header{
+	float: right;
+	margin-right: 20px;
+	margin-top: -540px;
+	font-size: 50px;
+	color: white;
+	background-color: black;
+	padding:10px 10px 10px 10px;
+	width: 250px;
+	height: 60px;
+	text-align: center;
+	
+}
+.s_para{
+	float: right;
+	margin-right: 60px;
+	margin-top: -440px;
+	width: 196px;
+	height: 450px;
+	color: black;
+	font-size: 30px;
+	font-weight: 60px;
+}
+.cartoon{
+	
+	font-size: 50px;
+	background: red;
+	text-align: center;
+	color: white;
+}
+
+#pics{
+	margin-top: 70px;
+}
+#pics table{
+			width: 80%;
+			height: 800px;
+			margin-left: 60px;	
+		}
+		#pics tr td img{
+			margin: 10px 10px 10px 10px;
+			
+			
+		}
+		
+		#pics tr td{
+			border: 1px solid;
+			border-radius: 10px;
+		
+
+		}
+		#pics table p{
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-size: 24px;
+			background: grey;	
+		}
+		 
+
+</style>
+	

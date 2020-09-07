@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Walter Bros Inc</title>
+	<style type="text/css">
+		body{
+			background-image: url("Images/back1.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		
+		.heading1{
+			text-align: center;
+		}
+		.paragraph{
+			text-align: center;
+			font-size: 18px;
+		}
+		label{
+			margin-left: 400px;
+			font-weight: bold;
+		}
+		input[type="number"]{
+			margin-left: 36px;
+			width: 200px;
+			height: 28px;
+		}
+		 input[type="date"]{
+			margin-left: 100px;
+			width: 200px;
+			height: 28px;
+		}
+		.confirm{
+			margin-left: 620px;
+			width: 120px;
+			height: 40px;
+			margin-top: 30px;
+			background-color: green;
+			color: white;
+			font-weight: bold;
+			box-shadow: (0,0,0,0.6);
+			border: 1px solid;
+		}
+		.confirm:hover{
+			background: seagreen;
+		}
+		.goto{
+			margin-left: 100px;
+			text-decoration: none;
+			color: black;
+			
+		}
+	</style>
+	<script type="text/javascript">
+		function confirmed() {
+			var card_no=document.getElementById("num");
+			
+
+			if(card_no.value){
+
+		alert("Dear Customer, Your order is Confirm! Your products will be sent you within 7 days."); 
+		}
+
+		else{
+		alert("Please Enter a valid card number");
+	}
+}
+
+	
+
+	</script>
+</head>
+<body>
+	<h1 class="heading1"> Ready to do final step</h1>
+	<p class="paragraph">	You are purchasing all products in your cart.
+	</p>
+	<p class="paragraph"> Your total amount is 500$ /- only</p>
+	<p class="paragraph"> Please complete your purchasing by adding your credit or debit card no.</p><BR><BR>
+	<form>
+	<label >Credit/Debit Card no:</label>
+	<input id="num"  type="number" minlength="16" required=""> <br><Br>
+	<label>Expire Date:</label>
+	<input id="e_date" type="date" required=""><br><br>
+	<button class="confirm" onclick="confirmed();">Confirm Order!</button>
+	<a class="goto" href="index.html">Go To Home</a>
+</form>
+</body>
+</html>

@@ -1,0 +1,86 @@
+
+footer{
+
+	height:330px;
+	width: 100%;
+	background-color:#2E6AA7;
+	margin-top: 120px;
+
+}
+.fheader{
+	margin-left: 40px;
+	padding-top: 50px;
+	color:white;
+	}	
+
+.finput[type="email"]{
+	width: 160px;
+	height:28px;
+	border:2px solid black;
+	padding-left: 20px;
+	font-size: 16px;
+	font-family: 'Times New roman';
+	
+}
+.fbutton{
+	width:99px;
+	height: 31px;
+	font-size: 16px;
+	background: seagreen;
+	border: 1px solid white;
+	color: white;
+	box-shadow:(0,0,0,0.6);
+	}
+.fbutton:hover{
+	background-color: green;
+}	
+.div2{
+
+	margin-left: 400px;
+	margin-top: -138px;
+
+}	
+.div2 a{
+	color:white;
+
+}
+.div2  ul{
+	list-style: none;
+	margin-left: 10px;
+	margin-top: 18px;
+
+}
+footer h2{
+	color: white;
+}
+.div3{
+	margin-left: 600px;
+	margin-top: -140px;
+
+}
+.div3 img {
+
+		margin-left: 10px;
+		width:30px;
+		height: 30px;
+}
+
+
+.div4{
+	margin-left: 800px;
+	margin-top: -80px;
+	color:white;
+}
+.div4 p{
+	margin-top: 20px;
+
+}
+.end{
+	margin-top: 100px;
+	font-size: 18px;
+	margin-left: 40px;
+	color:white;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
